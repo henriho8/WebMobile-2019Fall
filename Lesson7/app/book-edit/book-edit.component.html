@@ -1,0 +1,34 @@
+<!-- write code to edit and save book i this component -->
+<p>Book Edit</p>
+<div class="button-row">
+  <a mat-raised-button color="primary" (click)="cancel()"><mat-icon>highlight_off</mat-icon></a>
+</div>
+
+<form  [formGroup]="bookEditForm" (ngSubmit)="onFormSubmit(bookEditForm.value)">
+  <mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title><h2>Title: <input matInput placeholder={{book.title}} formControlName="title"></h2></mat-card-title>
+      <mat-card-subtitle>Description:<input matInput placeholder={{book.description}} formControlName="description"></mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <dl>
+        <dt>ISBN:</dt>
+        <dd><input matInput placeholder={{book.isbn}} formControlName="isbn"> </dd>
+        <dt>Author:</dt>
+        <dd><input matInput placeholder={{book.author}} formControlName="author"> </dd>
+        <dt>Publisher:</dt>
+        <dd><input matInput placeholder={{book.publisher}} formControlName="publisher"> </dd>
+        <dt>Published Year:</dt>
+        <dd><input matInput placeholder={{book.published_year}} formControlName="published_year"> </dd>
+      </dl>
+    </mat-card-content>
+    <mat-card-actions>
+      <div class="button-row">
+        <button type="submit" mat-raised-button color="primary">
+          <mat-icon>done_outline</mat-icon>
+        </button>
+      </div>
+    </mat-card-actions>
+  </mat-card>
+</form>
+
