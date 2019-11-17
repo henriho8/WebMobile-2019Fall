@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "485734550738",
+    "firebase_url": "https://mobilelesson5.firebaseio.com",
+    "project_id": "mobilelesson5",
+    "storage_bucket": "mobilelesson5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485734550738:android:0d76e49bb3fe71f66cb10b",
+        "android_client_info": {
+          "package_name": "com.vijaya.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485734550738-bkdh1bjjga8c745lflrf755fh0i4bagc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFm1Wcu9cpm9QXdg2UruhcboRH2TgESVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485734550738-bkdh1bjjga8c745lflrf755fh0i4bagc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
